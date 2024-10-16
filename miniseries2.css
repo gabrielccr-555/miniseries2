@@ -1,0 +1,131 @@
+/*CSS Geral */
+
+body {
+    margin: 0;
+    background-color: rgb(80, 141, 80);
+}
+
+.chango-regular {
+    font-family: "Chango", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.montserrat-body {
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+
+.limitador {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+/*Apresentação*/
+
+.green-landscape {
+    background-image: url(green_trees.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 50px;
+    padding-bottom: 75px;
+    min-height: 50vh;
+    text-align: center;
+    color: white;
+    border-radius: 0px 0px 40px 40px;
+}
+
+/*Tracks Favoritas*/
+
+.tracklist_faves {
+    margin: 30px 0px;
+    border-radius: 40px;
+    padding: 50px 50px;
+    background-color: rgba(255, 255, 255, 0.785);
+}
+
+.tracklist_faves h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tracklist_faves .cell {
+    padding: 15px;
+    background-color: rgb(80, 141, 80);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    min-height: 100%;
+}
+
+.tracklist_faves p {
+    color: white;
+}
+
+.icon {
+    width: 35px;
+}
+
+/*Tracks Temporais*/
+
+.time-of-day-tracks {
+    margin: 30px 0px;
+    border-radius: 40px;
+    padding: 50px 50px;
+    background-color: rgba(255, 255, 255, 0.564);
+    text-align: start;
+}
+
+.time-of-day-tracks .cell-2-mor,
+.time-of-day-tracks .cell-2-aft,
+.time-of-day-tracks .cell-2-eve {
+    padding: 100px 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    min-height: 100%;
+}
+
+
+.time-of-day-tracks .cell-2-mor {
+    background-image: url(morning.jpg);
+}
+
+.time-of-day-tracks .cell-2-aft {
+    background-image: url(afternoon.jpg);
+}
+
+.time-of-day-tracks .cell-2-eve {
+    background-image: url(evening.jpg);
+}
+
+/* Curiosidades */
+
+.curious {
+    margin: 30px 0px;
+    border-radius: 40px;
+    padding: 50px 50px;
+    background-color: rgba(255, 255, 255, 0.384);
+    text-align: start;
+}
+
+.curious .cell-3 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.curious .cell-3 h5 {
+    color: #306898;
+    text-align: center;
+}
+
+.padding-coluna {
+    padding: 15px;
+}
